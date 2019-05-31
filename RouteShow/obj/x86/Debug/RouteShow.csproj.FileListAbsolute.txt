@@ -1,0 +1,44 @@
+C:\Documents and Settings\Supervisor\Local Settings\Application Data\Temporary Projects\RouteShow\bin\Debug\RouteShow.exe
+C:\Documents and Settings\Supervisor\Local Settings\Application Data\Temporary Projects\RouteShow\bin\Debug\RouteShow.pdb
+C:\Documents and Settings\Supervisor\Local Settings\Application Data\Temporary Projects\RouteShow\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Supervisor\Local Settings\Application Data\Temporary Projects\RouteShow\obj\x86\Debug\RouteShow.Form1.resources
+C:\Documents and Settings\Supervisor\Local Settings\Application Data\Temporary Projects\RouteShow\obj\x86\Debug\RouteShow.Properties.Resources.resources
+C:\Documents and Settings\Supervisor\Local Settings\Application Data\Temporary Projects\RouteShow\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Supervisor\Local Settings\Application Data\Temporary Projects\RouteShow\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Supervisor\Local Settings\Application Data\Temporary Projects\RouteShow\obj\x86\Debug\RouteShow.exe
+C:\Documents and Settings\Supervisor\Local Settings\Application Data\Temporary Projects\RouteShow\obj\x86\Debug\RouteShow.pdb
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.exe
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.pdb
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Form1.resources
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Properties.Resources.resources
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Gerz\Проекты\RouteShow\RouteShow\bin\Debug\RouteShow.exe
+E:\Gerz\Проекты\RouteShow\RouteShow\bin\Debug\RouteShow.pdb
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Gerz\Проекты\RouteShow\RouteShow\bin\Debug\RouteShow.exe.config
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.FormEdit.resources
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\GenerateResource-ResGen.read.6.tlog
+z:\Project\RouteShow\RouteShow\bin\Debug\RouteShow.exe.config
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.exe
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.pdb
+z:\Project\RouteShow\RouteShow\bin\Debug\RouteShow.exe
+z:\Project\RouteShow\RouteShow\bin\Debug\RouteShow.pdb
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.csprojResolveAssemblyReference.cache
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Form1.resources
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.FormEdit.resources
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Properties.Resources.resources
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.csproj.GenerateResource.Cache
+e:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormAbout.resources
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormAbout.resources
+e:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormSave.resources
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\GenerateResource-ResGen.read.8.tlog
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormNew.resources
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormNew.resources
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormSave.resources
+e:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormInterfaceInfo.resources
+E:\Gerz\Проекты\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormCheckRoute.resources
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormCheckRoute.resources
+z:\Project\RouteShow\RouteShow\obj\x86\Debug\RouteShow.Forms.FormInterfaceInfo.resources

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C66810B7-3B6C-4DB5-B150-D2F0BDF73B16}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RouteShow</RootNamespace>
+    <AssemblyName>RouteShow</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdapterInfo.cs" />
+    <Compile Include="Excel\Alignment.cs" />
+    <Compile Include="Excel\BIFF.cs" />
+    <Compile Include="Excel\Cell.cs" />
+    <Compile Include="Excel\CellInfo.cs" />
+    <Compile Include="Excel\ColumnInfo.cs" />
+    <Compile Include="Excel\ExcelColor.cs" />
+    <Compile Include="Excel\ExcelDocument.cs" />
+    <Compile Include="Excel\ExcelWriter.cs" />
+    <Compile Include="Excel\FontInfo.cs" />
+    <Compile Include="Excel\FormatInfo.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCheckRoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCheckRoute.Designer.cs">
+      <DependentUpon>FormCheckRoute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEdit.Designer.cs">
+      <DependentUpon>FormEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormInterfaceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormInterfaceInfo.Designer.cs">
+      <DependentUpon>FormInterfaceInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNew.Designer.cs">
+      <DependentUpon>FormNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSave.Designer.cs">
+      <DependentUpon>FormSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grid\MyGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="InterfaceInfo.cs" />
+    <Compile Include="IPHelper\AdaptersTable.cs" />
+    <Compile Include="IPHelper\ArpEntry.cs" />
+    <Compile Include="IPHelper\InterfaceIPEntry.cs" />
+    <Compile Include="IPHelper\IPHelper.cs" />
+    <Compile Include="IPHelper\Type\MIB_TCPTABLE2.cs" />
+    <Compile Include="IPHelper\Type\MIB_UDPROW_EX.cs" />
+    <Compile Include="IPHelper\NativeMethods.cs" />
+    <Compile Include="IPHelper\RouteEntry.cs" />
+    <Compile Include="IPHelper\TcpEntry.cs" />
+    <Compile Include="IPHelper\Type\ArpClass.cs" />
+    <Compile Include="IPHelper\Type\ForwardProtocol.cs" />
+    <Compile Include="IPHelper\Type\ForwardType.cs" />
+    <Compile Include="IPHelper\Type\InterfaceAddressFlag.cs" />
+    <Compile Include="IPHelper\Type\IP_ADAPTER_INDEX_MAP.cs" />
+    <Compile Include="IPHelper\Type\IP_INTERFACE_INFO.cs" />
+    <Compile Include="IPHelper\Type\MIB_IFROW.cs" />
+    <Compile Include="IPHelper\Type\MIB_IPADDRROW.cs" />
+    <Compile Include="IPHelper\Type\MIB_IPFORWARDROW.cs" />
+    <Compile Include="IPHelper\Type\MIB_IPNETROW.cs" />
+    <Compile Include="IPHelper\Type\MIB_TCPROW2.cs" />
+    <Compile Include="IPHelper\Type\MIB_TCPROW_EX.cs" />
+    <Compile Include="IPHelper\Type\MIB_TCP_STATE.cs" />
+    <Compile Include="IPHelper\Type\PortType.cs" />
+    <Compile Include="IPHelper\Type\RtoAlgorithm.cs" />
+    <Compile Include="IPHelper\Type\TCP_CONNECTION_OFFLOAD_STATE.cs" />
+    <Compile Include="IPHelper\Type\TCP_TABLE_CLASS.cs" />
+    <Compile Include="IPHelper\Type\UDP_TABLE_CLASS..cs" />
+    <Compile Include="IPHelper\UdpEntry.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Route.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCheckRoute.resx">
+      <DependentUpon>FormCheckRoute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEdit.resx">
+      <DependentUpon>FormEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormInterfaceInfo.resx">
+      <DependentUpon>FormInterfaceInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNew.resx">
+      <DependentUpon>FormNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSave.resx">
+      <DependentUpon>FormSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\route.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\route.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\apply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icons\find.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
